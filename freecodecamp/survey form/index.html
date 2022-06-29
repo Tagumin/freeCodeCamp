@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Who is your waifu?</h1>
+      <p id="description">Tell to people who is your waifu</p>
+    </header>
+
+    <div class="content">
+      <form id="survey-form">
+        <section class="info">
+          <label id="name-label">Name Waifu</label>
+          <input type="text" name="name" id="name" required placeholder="Waifu Name" />
+          <label id="email-label">Your waifu email</label>
+          <input type="email" name="email" id="email" required placeholder="Email-Waifu" />
+          <label id="number-label">Age</label>
+          <input type="number" min="4" max="30" id="number" placeholder="Age" />
+        </section>
+
+        <label>Where you know your waifu?</label>
+        <select name="" id="dropdown">
+          <option value="1">Youtube</option>
+          <option value="2">Anime</option>
+          >
+          <option value="3">Friends</option>
+          <option value="4">Google</option>
+        </select>
+        <section class="check">
+          <section class="gender">
+            <label>Boy/girl</label>
+            <label> <input type="radio" name="gender" class="boy" id="boy" value="boy-girl" />Boy </label>
+            <label> <input type="radio" name="gender" id="girl" value="boy-girl" />Girl</label>
+          </section>
+
+          <section class="favourite">
+            <label>Your waifu favourite:</label>
+            <label><input type="checkbox" name="ability" id="" value="cooking" />Cooking</label>
+            <label><input type="checkbox" name="ability" id="" value="singing" />Singing </label>
+            <label><input type="checkbox" name="ability" id="" value="dancing" />Dancing</label>
+            <label><input type="checkbox" name="ability" id="" value="read book" />Read book</label>
+          </section>
+        </section>
+
+        <label>Why do you like she/he?</label>
+        <textarea rows="3" cols="60"></textarea>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+  font-family: sans-serif;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+header {
+  text-align: center;
+  font-size: 2rem;
+  color: blue;
+}
+.content {
+  background-color: lightblue;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  opacity: 0.9;
+}
+.info input,
+select {
+  min-width: 85%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.check label {
+  display: block;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  border: none;
+  padding: 10px 15px;
+  background-color: rgba(65, 65, 180, 0.758);
+}
+
+@media (max-width: 500px) {
+  .content {
+    width: 80%;
+  }
+  textarea {
+    width: 100%;
+  }
+}
